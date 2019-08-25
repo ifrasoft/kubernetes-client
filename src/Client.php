@@ -51,6 +51,7 @@ use Maclof\Kubernetes\Models\PersistentVolume;
  * @method NamespaceRepository namespaces()
  * @method NetworkPolicyRepository networkPolicies()
  * @method HorizontalPodAutoscalerRepository horizontalPodAutoscalers()
+ * @method SiddhiProcessesRepository siddhiProcesses()
  */
 class Client
 {
@@ -183,6 +184,9 @@ class Client
 
 		// networking.k8s.io/v1
 		'networkPolicies'        => 'Repositories\NetworkPolicyRepository',
+
+		//siddhi.io/v1alpha1
+		'siddhiProcesses'        => 'Repositories\SiddhiProcessesRepository',
 	];
 
 	/**
