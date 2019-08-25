@@ -43,6 +43,9 @@ $ composer require maclof/kubernetes-client
 ### networking.k8s.io/v1
 * Network Policies
 
+### siddhi.io/v1alpha1
+* SiddhiProcesses
+
 ## Basic Usage
 
 ```php
